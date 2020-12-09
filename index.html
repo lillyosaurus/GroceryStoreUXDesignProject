@@ -10,11 +10,8 @@
 	<link href="css/templatemo-style.css" rel="stylesheet" />
 </head>
 <!--
-
 Made using the Simple House HTML template:
-
 https://templatemo.com/tm-539-simple-house
-
 -->
 <body> 
 
@@ -22,7 +19,7 @@ https://templatemo.com/tm-539-simple-house
 	<!-- Top box -->
 		<!-- Logo & Site Name -->
 		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/uxd_banner.jpg">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/newbanner.jpg">
 				<div class="tm-header">
 					<div class="row tm-header-inner">
 						<div class="col-md-6 col-12">
@@ -34,9 +31,8 @@ https://templatemo.com/tm-539-simple-house
 						</div>
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
-								<li class="tm-nav-li"><a href="phase-4.html" class="tm-nav-link">Phase 4</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>				
 							</ul>
 						</nav>	
 					</div>
@@ -46,40 +42,644 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 
-			<div class="blurb">
-				<h2 class="col-12 text-center tm-section-title"> Design </h2>
+			<div >
+				<br>
+				<h1 class="col-12 text-center .tm-site-title"> Phase 4: Design Refinement </h1>
+				
+				<h2 class="col-12 text-left tm-chunk-title"> The Current Design </h2>
+				
+				<h3 class="col-12 text-left tm-section-title"> A New Character for Online Shopping </h3>
+				<p class="col-12 text-left">
+					Our user research has shown that many people don't online shop because they feel like they have to know everything 
+					they want before they can start. It is challenging to wander around a grocery website and stumble upon foods you might 
+					like because:
+				</p>
+				<ul >
+					<li > Foods within a given category often aren't grouped logically </li>
+					<li > Advertisements take up a lot of cognitive and physical real estate </li>
+					<li > Viewing options often feels like an infinite scroll with varying levels of relevance </li>
+				</ul>
+				<p class="col-12 text-left">
+					These factors create a disorienting experience that causes people to go straight for the search bar, which explains why 
+					they don't feel comfortable poking around as they might in a physical grocery store. Our goal is to remove these inhibitors
+					so that people can feel comfortable shopping online in whatever way feels most natural to them, and to scaffold an experience
+					that facilitates people finding items organically rather than strictly from a premeditated list.
+				</p>
+				<h3 class="col-12 text-left tm-section-title"> Encouraging People to Browse the Aisles </h3>
+				<p class="col-12 text-left">
+					Users consistently expressed challenges curating a full grocery list, because many people want to choose some or all of their 
+					items while they are actually in the store. For example one user said “I don’t use a shopping list at all. I just go and see 
+					what I think I’ll eat in the next few weeks.” More common than that was a user that made a list of specific meal ingredients, 
+					but wanted to pick out items like snacks on a whim. This mode of operation translates poorly to most current online grocery stores, 
+					where users do not feel comfortable browsing items and primarily rely on search behavior. 
+				</p>
+				<br>
+				<p class="col-12 text-left">
+					Here is our Aisle View page aimed at encouraging organic discovery:
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/report_4_img_01.png" alt="An image showing the aisle view of the prototype. Sections are outlined and numbered.">
+				<br> <br>
+				<p class="col-12 text-left">
+					[1] Grocery sites typically have their search bar front and center, indicating that searching the store is a primary action. In 
+					order to retrain users to try perusing, our team chose to have the search bar hidden automatically, and place the buttons to access 
+					searches on the right side of the screen. In comparison, the subcategories of an aisle are displayed on the left under the aisle name, 
+					taking priority by Fitts’s Law.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/report_4_img_02.png" alt="An image showing the header of a grocery shopping website. The search bar is outlined and labeled, 'Most visual weight'">
+				<br> <br>
+				<p class="col-12 text-left">
+					[2] A specific “Search Aisle” button allows for greater user freedom that more closely emulates physical shopping. This option 
+					acknowledges that a user has done the work of narrowing to an Aisle, and curbs the frustrating experience of seeing some results that are 
+					wildly outside the scope of what they are looking for.
+					<br> <br>
+					[3] The most original aspect of this design is the horizontal scroll layout, which is meant to mimic the look and feel of a real store aisle. 
+					Users consistently expressed an affinity toward this format and were quick to verbalize that it felt like a physical store. A nuanced benefit 
+					to this directionality is that, by virtue of computer screen aspect ratios, items stay on the screen longer as users scroll. This is intended 
+					to give people more time to see something they might want peripherally, and to construct a more grounded sense of place. 
+				</p>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_03-1.png" alt="An image showing a vertical scroll on a grocery shopping website and the text 'Items scroll off the page almost instantly.'">
+					</div>
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_03-2.png" alt="An image showing the prototype with a horizontal scroll and the text 'The eye has time to see items peripherally and establish grounding.'">
+					</div>
+				</div>
+				<br> <br>
+				<p class="col-12 text-left">
+					[4] Displaying logical groupings of items is a core pillar of physical grocery stores. It allows users to quickly see what is relevant to their 
+					needs, and compare factors like pricing one to one. Our research into other online grocery stores revealed that most sites do not have logical 
+					groupings. For example, Whole Foods’s dairy aisle has milks of the same brand dispersed throughout the display order. So, if you found the brand 
+					and size you wanted of skim milk, but you buy 2%, you would have to continue scrolling for an unforeseeable amount of time to find the option you 
+					want. Our team suspects that this is a reason that people feel overwhelmed in the seemingly infinite scroll, and decided that a mechanism for 
+					logical display groupings should be a core tenant of our design. 
+				</p>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_04-1.png" alt="An image showing scattered items of different categories on a grocery shopping website.">
+					</div>
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_04-2.png" alt="An image showing the prototype with grouped items.">
+					</div>
+				</div>
+				<br> <br>
+				<p class="col-12 text-left">
+					[5] Finally, the hierarchy of our aisle header is intended to encourage people to make frequent use of categories. Rather than filtering to that 
+					category, the page scrolls so that the first item fitting that category is in the top, leftmost spot. An animation takes the user past prior results, 
+					so that they have the opportunity to discover something they might like on the way. Swiping between categories also creates a more dynamic experience 
+					than filterning, encouraging users to zoom back and forth between categories without feeling a high level of commitment to the action.
+				</p>
+				<h3 class="col-12 text-left tm-section-title"> The Concept of Bundles </h3>
+				<p class="col-12 text-left">
+					A consistent pain point we heard from users was that they struggled to remember to restock staple foods in addition to buying ingredients for specific 
+					dishes. This prompted us to design an interaction that promotes recognition over recall for restocking common foods.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/report_4_img_05.png" alt="An image showing the My Bundles page of the prototype, with four numbered sections.">
+				<br> <br>
+				<p class="col-12 text-left">
+					Bundles are custom collections of items that users can make. For example, they might curate a Bundle of the items they buy most commonly every week. 
+					So, after a user creates a Bundle, they can add all of those items to their cart in one click every time they shop [1]. Alternatively, they can scroll 
+					through the Bundle and add items one at a time, which allows them to mentally check if they already have enough eggs (for example), without having to 
+					recall that they needed to consider eggs [2]. Our team anticipates that new users will opt for adding items one at a time as they get more comfortable 
+					with the idea, and power users will opt for the “Add all the Cart” button more frequently.
+					<br> <br>
+					Bundles can be edited at any time, so if a user were to switch to a lactose free diet, it’s simply a matter of deleting 2% milk and adding oat milk to 
+					their list of staples [3].
+					<br> <br>
+					Another common use for Bundles is grouping recipe ingredients. So, when a user decides on “Taco Tuesday” that week, they can add all the materials to 
+					their cart without having to search each item or scour through recently bought options. Bundles also allow users to see exactly how much a meal will 
+					cost them at a quick glance [4].
+				</p>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_06-1.png" alt="An image showing making a Bundle from scratch in the prototype.">
+					</div>
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_06-2.png" alt="An image showing making a Bundle from checkout in the prototype.">
+					</div>
+				</div>
+				<br> <br>
+				<p class="col-12 text-left">
+					Users are able to create Bundles in multiple ways. They can make one from scratch by searching up ingredients and adding them to a list [5]. Or, they 
+					can go into an ingredient-sorting mode just before checkout that lets them group items in their cart into Bundles [6]. This option circumvents the 
+					effort of searching up items to make a Bundle, and would likely be used in recipe Bundles because users are likely to have all the ingredients for a 
+					recipe already in their cart.
+				</p>
+				<h3 class="col-12 text-left tm-section-title"> Minimalist Design </h3>
+				<p class="col-12 text-left">
+					Our website aims to use minimalist design that presents only the most important actions that users might want to take. Our home page emphasizes the 
+					core functionality of the site, encouraging users to select an aisle first and foremost, and informing users that Bundles are an option.
+				</p>
+				<br>
+				<div class="row">
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_07-1.png" alt="An image showing the homepage of the prototype.">
+					</div>
+					<div class="col-lg-6 text-center">
+						<img class="col-12" src="img/report_4_img_07-2.png" alt="An image showing the homepage of a grocery shopping website.">
+					</div>
+				</div>
+				<br> <br>
+				<p class="col-12 text-left">
+					In contrast, many grocery sites are so overrun with ads, that users have to scroll considerably to even see that categories are an option. This 
+					further cements users’ inclination to use the search bar exclusively. The idea of categories on a home page isn’t itself novel, but the emphasis 
+					in our design makes the interaction far less overwhelming.
+				</p>
+				<h3 class="col-12 text-left tm-section-title"> Interaction Flow </h3>
+				<p class="col-12 text-left">
+					The diagram below shows how user actions link together in our prototype, and highlights in a black box the interactions that we haven’t designed.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/UXD_Cognitive_Walkthrough.jpg" alt="An image showing the My Bundles page of the prototype, with four numbered sections.">
+				<br> <br>
+				<iframe class="col-12 text-center style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5iNckKJDPMtJlvYGQsGruu%2FRev-2%3Fnode-id%3D226%253A0%26scaling%3Dscale-down" allowfullscreen></iframe>
+				
+				<h2 class="col-12 text-left tm-chunk-title"> Design feedback and Revisions </h2>
+									     
+				<p class="col-12 text-left">
+					In the most recent phase of development we focused on revising and polishing the current prototype. The design revisions consisted of two stages.
+					<br> <br>
+					First, a rough prototype of the interface was taken back to test users who helped refine the ideas present in the prototype. These feedback sessions primarily focused on the design of user-requested features and identifying user experience pain points.
+					<br> <br>
+					Second, after implementing feedback from the design revision sessions, we brought a team of designers (consisting of other students taking the course) on board to perform a heuristic evaluation of the prototype. This process was designed to identify areas of improvement by evaluating our interface using <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Jakob Nielson's ten general usability heuristics.</a>  We also gathered feedback from our instructor to implement specific UI changes and to provide insight from his experience working in design at a company.                     
+					<br> <br>
+					The final development phase focused on refining the design to implement the design feedback from the heuristic evaluations as well as polishing the design as a whole. The first major design change which needed to be made was that users expressed frustration and the feeling of being overwhelmed with the initial prototype. They said that they "could understand the fundamental concept of trying to mimic store shelves, but there [were] just so many things happening that [they couldn't] focus on the one task [they wanted] to perform." In response, we made a deliberate attempt to reduce the number of items shown as well as provide visual structure to the page to ground the design.				
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/visualClutterRefinement.jpg" alt="An image depicting the refinement of the prototype. On the left is an image showing many varied items displayed as images layed out in a grid on a white background. The right hand image displays items arainged in three rows and set into a shape which suggests the items are placed on a virtual shelf.">
+				<br> <br>
+				<p class="col-12 text-left">
+					Based on user feedback, we revised how our filtering and in-aisle search features displayed results. In the first iteration, the items that matched the search or filtering criteria were highlighted to make them distinct to the user. This led to an overly cluttered interface, and users became frustrated with being unable to rapidly see all items fitting their selection criteria. We solved this problem by transitioning to a system where the screen will display only items that meet the filtering or search criteria.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/filterComparason.jpg" alt="An image depicting the redesign of the filtering system. On the left is an image showing many items displayed as images items are highlighted in yellow if they fulfill the selected filter. The right hand image displays fewer items populating the shelf with only items that fulfill the selected filter.">
+				<br> <br>
+				<p class="col-12 text-left">
+					A fairly lightweight and primarily visual feature that we implemented came from some users’ expressing a desire for a way to navigate within an aisle while maintaining the ability to see all the items pass as they navigate--similar to the brick and mortar experience of navigation flags within an aisle. [1]
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/storeIsleFlags.jpg" alt="An image depicting the forzen foods isle of a rocery store. Signs hang over the refridgeration units periodically. The signs denote diferent sections of the refridgeration units such as entres and frozen pizzas.">
+				<br> <br>
+				<p class="col-12 text-left"> 
+					We structured our solution under a header navigation architecture where users can navigate within an aisle by selecting a category, and when the user selects a category, the items scroll past as though the user is walking through the virtual aisle.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/navigationHeaders.jpg" alt="An image depicting the dairy isle with a category toolbar above the products. The left image shows the milk category selected. the right image shows the cheeze category selected and a development tag describing that items would shift along the shelves to display the cheese while giving a previw of the other catagories as you pass.">
+				<br> <br>
+				<p class="col-12 text-left">
+					Users also expressed frustration with traditional e-commerce systems' lack of a method to save commonly purchased items (to simplify repeat purchases). Some of our users expressed how they would appreciate the ability to purchase all of the ingredients for a recipe without having to find them all individually. To solve this, we introduced the system of Bundles: saved, user-defined item groupings that can be added to the cart all at once. Users can create and modify their Bundles at any point in the shopping experience, but we expect that the majority of Bundle creation will occur at checkout--the final configuration of items are already together in the cart and the user, having just done the work to track down these items, is more willing to create a Bundle to save them time on their next visit. Bundles can be used in a wide range of capacities--everything from ignored to a central hub of the shopping experience--for a wide variety of use cases, and we expect that the majority of our users can find value somewhere on this spectrum.
+					<br> <br>
+					The last major change that was made in response to user feedback was a shift to emphasize actions occurring as pop-up modals throughout the experience. One way we used this was to combat the problem of users having difficulty tracking what was in their cart in traditional e-commerce experiences. One user remarked, "[when online shopping] I find I don’t really know how much I have in my cart. I just put things in my cart as I go, but then I'm always surprised by how much I ordered and how much I spend when it comes to checkout." We aimed to make checking the cart status more dynamic and integrated with the overall experience by showing the cart contents in a pop-up modal which the user can easily open and close by clicking on the cart icon throughout their shopping experience.
+				</p>
+				<br>
+				<img class="col-12 text-center" src="img/cartModal.jpg" alt="An image depicting a popup window displayed over the isle. The window has the title Cart Total $36.84 and has a list of the items in your cart. The top right hand corner of the window has an x denoting the ability to close the window and the bottom right hand corner has two butons. One says procede to checkout and the other says create bundles">
+				<br> <br>
+			
+			<h2 class="col-12 text-left tm-chunk-title"> Iterative Improvements </h2>
+			<h3 class="col-12 text-left tm-section-title"> Acting on Heuristic Evaluation Feedback </h3>
+			<p class="col-12 text-left">
+				Based on the feedback from a heuristic evaluation conducted by classmates, we implemented a number of changes in our prototype. 
+				View a summary of the heuristic evaluation feedback, whether or not we implemented the change, and how we implemented each change 
+				<a href="https://docs.google.com/document/d/15Mu_cz53qLlfhs6q2bVxcNFWLBc0nWFcI_BGeVbcLd4/edit?usp=sharing">here.</a>
+				<br> <br>
+				The first change we made was to rethink and further develop our Bundles feature, originally called “Recipes.” In our heuristic 
+				evaluation, we found that the wording “Group by Recipe” was confusing, and that if users had recipes they wanted to use, they’d 
+				rather see them at the beginning of the shopping process rather than the end. This didn’t match the conceptual model that we as 
+				designers had imagined for the feature--we wanted the feature to be an easy way of grouping items at checkout so that they could 
+				be quickly added for future shopping trips. In order to address this problem, we implemented four changes.
+				<br> <br>
+				First, we changed the name of the feature from “Recipes” to “Bundles.” While “Recipes” has a specific meaning in the context of 
+				grocery shopping that is strongly associated with the planning phase of grocery shopping (something we explicitly wanted to de-emphasize
+				in our design), “Bundles” is more general, and more closely matches our conceptual model of the feature.
+				<br> <br>
+				Second, we re-worded the tooltip explanation of the feature to emphasize returning to shop next time, to better communicate why the user 
+				is prompted to create Bundles before checkout. We also made the explanation more concise, reducing the cognitive load the user needs to 
+				engage with the feature. These first two changes are illustrated in the screenshots below, which show our prototype before and after 
+				implementing these changes.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_08-1.png" alt="An image showing the old prototype with add to recipe button with tooltip.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_08-2.png" alt="An image showing the new prototype with add to bundle button with tooltip.">
+				</div>
+			</div>
+			<br> <br>
+			<p class="col-12 text-left">
+				Third, we added a way for the user to create Bundles from scratch. While our intended use of Bundles was to easily group together 
+				items the user was currently buying, we also wanted to allow users who enjoy planning to be able to put in Bundles ahead of time. 
+				From a conceptual model standpoint, it’s also easier for the user to imagine that they’re adding things to an existing collection at 
+				checkout if they can add things to the collection at other times as well. Below, creating a Bundle from checkout is shown on the left, 
+				and creating a Bundle from scratch is shown on the right.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_09-1.png" alt="An image showing creating Bundles from the cart.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_09-2.png" alt="An image showing creating Bundles from scratch.">
+				</div>
+			</div>
+			<br> <br>
+			<p class="col-12 text-left">
+				Finally, we added Bundles to our header-level navigation, strengthening the user’s conceptual model of “Bundles” as a collection of 
+				groups they can access for later. The headings before and after this development phase are shown below.
+			</p>
+			<br>
+			<img class="col-12 text-center" src="img/report_4_img_10.png" alt="An image showing the old header.">
+			<br> <br>
+			<img class="col-12 text-center" src="img/report_4_img_11.png" alt="An image showing the new header.">
+			<br> <br>
+			<p class="col-12 text-left">
+				Another set of changes we made helped clarify our search functionality. First, we more clearly separated the in-aisle search bar 
+				from the global search by making the in-aisle search bar appear at the top of the screen when the user clicks “Search Aisle.” We 
+				also added text inside the search bar to clarify where it’s searching. Finally, we made the “Search Aisle” and “Search Storewide” 
+				buttons different colors to emphasize different functions. The “Search Storewide” button is the same color scheme as the “Choose Aisle” 
+				button in the top left of the page, indicating that it takes you to a different screen. These changes are shown below.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_12-1.png" alt="An image showing the aisle view in the old prototype.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_12-2.png" alt="An image showing the aisle view in the new prototype.">
+				</div>
+			</div>
+			<br> <br>
+			<p class="col-12 text-left">
+				Finally, we added an additional modal screen after the user clicks on an item that shows details about the item and prompts 
+				them to select a quantity and add to the cart, reducing user error in adding items to the cart.
+			</p>
+			<img class="col-12 text-center" src="img/report_4_img_13.png" alt="An image showing the pop-up modal that appears when the user clicks an item in the prototype.">
+			<br> <br>
+			<h3 class="col-12 text-left tm-chunk-title"> Acting on Instructor Feedback </h3>
+			<p class="col-12 text-left">
+				In addition to our heuristic evaluation feedback, we reached out to our instructor for more specific feedback on our user 
+				interface. Based on that feedback, we implemented the following changes:
+			</p>
+			<br>
+			<ul>
+				<li>Homepage that emphasizes aisle browsing and bundle functionality</li>
+			</ul>
+			<br>
+			<p class="col-12 text-left">
+				We updated our homepage to emphasize the things that make our design unique: browsing by aisle, and Bundles. Because these 
+				features are what the user spends the most time interacting with in our design, highlighting them on the landing page helps 
+				the user build a more accurate conceptual model of our product.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_14-1.png" alt="An image showing the home page before the revisions.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_14-2.png" alt="An image showing the home page after the revisions.">
+				</div>
+			</div>
+			<br> <br>
+			<ul>
+				<li>Aisle header that provides user control and freedom, and highlights primary actions with layout</li>
+			</ul>
+			<br>
+			<p class="col-12 text-left">
+				In order to improve user control and freedom, and the user’s conceptual model of the design, we rearranged the locations of 
+				buttons in the header bar and the aisle header. By adding the buttons “Browse Aisles” and “My Bundles” to the header, we improve 
+				user control and freedom by allowing them to access those options at any time while using the website. We also moved these buttons, 
+				along with the “Order again” button, to be left-aligned, because they are “backtracking,” allowing the user to retrace their steps 
+				or choose a different path rather than moving the user closer to checkout. We moved the “Choose Aisles” button in the aisle view 
+				further left for this same reason. We moved the cart out of the header and into the aisle view to emphasize that it’s part of the 
+				core experience, and not related to navigation like the other items in the header. We also moved the “Preferences,” “Search Aisle,” 
+				and “Search Storewide” buttons to be in-line with the aisle’s subcategories to clarify that they’re used for finding items in the 
+				store, as opposed to navigating the website.
+			</p>
+			<br>
+			<img class="col-12 text-center" src="img/report_4_img_15.png" alt="An image showing the in-aisle header of the prototype before revisions.">
+			<br> <br>
+			<img class="col-12 text-center" src="img/report_4_img_16.png" alt="An image showing the in-aisle header of the prototype after revisions.">
+			<br> <br>
+			<ul>
+				<li>Search bar that remains hidden to encourage browsing, but works predictably/modularly when you click search</li>
+			</ul>
+			<br>
+			<p class="col-12 text-left">
+				As mentioned earlier, we adjusted our in-aisle search bar so that it pops down from the top of the screen. By keeping the search 
+				bar hidden by default, we reduce unnecessary clutter on the screen and can keep the user focused on the core experience of browsing.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_17-1.png" alt="An image showing the aisle browsing page without the pop-down in-aisle search bar.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_17-2.png" alt="An image showing the aisle browsing page with the pop-down in-aisle search bar.">
+				</div>
+			</div>
+			<br> <br>
+			<ul>
+				<li>Categories in an aisle disappear if there are no items that apply after a filter</li>
+			</ul>
+			<br>
+			<p class="col-12 text-left">
+				In our previous prototype, when filtering items within an aisle, the aisle’s categories remained the same even when there were no 
+				items falling within that category. This led to the user developing a false conceptual model, believing that there were more items 
+				fitting their filter criteria in those categories. To resolve this, we adjusted our UI so that only the categories of the remaining 
+				items are listed. Additionally, we adjusted the way items are stacked in aisles, so that items in different categories are in 
+				distinct columns.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_18-1.png" alt="An image showing the filtered aisle view before revisions.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_18-2.png" alt="An image showing the filtered aisle view after revisions.">
+				</div>
+			</div>
+			<br> <br>
+			<ul>
+				<li>Increased the size of the cart to make it feel more like in-person shopping</li>
+			</ul>
+			<br>
+			<p class="col-12 text-left">
+				By making the cart icon bigger, we can take advantage of the user’s real-world perceptions, and make it more intuitive for 
+				the user to know where to check how many items they have currently and how much they cost.
+			</p>
+			<br>
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_19-1.png" alt="An image showing the aisle view before revisions.">
+				</div>
+				<div class="col-lg-6 text-center">
+					<img class="col-12" src="img/report_4_img_19-2.png" alt="An image showing the aisle view after revisions.">
+				</div>
+			</div>
+			<br> <br>
+			
+		
+			<h2 class="col-12 text-left tm-chunk-title"> Design Founded in User Needs </h2>
+		
+			<p class="col-12 text-left">
+				Our final design aims to add value to the online-grocery shopping experience for 
+				each of the core user personas established in the needs analysis phase. We outline 
+				how our design does this for each persona below.				
+			</p>
 
-				<p class="col-12 text-center">
-	We are designing an alternative online grocery shopping interface, with the goal of creating a more natural experience that facilitates the fun, impulsive, and discovery-based aspects of grocery shopping, while not becoming time-consuming or tedious to users who are time-pressed. Online grocery shopping is a broadly underdeveloped market compared to other categories of online shopping (even apparel and home goods), and we hope to better mesh the convenience and sensory rich traits of brick and mortar with the selection and other powerful potential upsides of online (search, personalization).
-				</p>
-				<h2 class="col-12 text-center tm-section-title"> How it works </h2>
-				<p class="col-12 text-center">
-	The interface attempts to mimic the spatial distribution of items and experience of a traditional store, but translate that experience into a digital format. Items on the website are grouped by “aisles/department” so that the user can easily navigate to the correct section of the store, then each isle has goods arranged on virtual shelves where the user can browse and drag items into their cart as they would in a traditional store. A core feature of the idea is to display items in logical groupings much like in a real grocery store. For example, all of the milks and jug sizes that one brand offers appear together, and all of the milk options are in one area of the shelf, allowing users to compare options and prices in the same way they do in person.
-	<br><br>The website will also capitalize on the opportunity presented by moving your grocery shopping online by providing previously bought items for ease of return shopping and other recommendation/personalization techniques (exact integration of these features is TBD). Grocery stores already perform this technique by strategically clustering items nearby to encourage impulse buying or far away to force the user to spend more time in the store. We see upside in being able to make these experiences more effective (personalized) and less tedious (no walking).
-				</p>
-				<h2 class="col-12 text-center tm-section-title"> User needs </h2>
-				<p class="col-12 text-center">
-	In our first round of paper prototype testing, we found that users were really happy with the shelf-like layout of items, and enjoyed having a “previously bought” page where they could quickly add the specific items they’ve bought before. However, our design also falls short in that the current mockup of our shelf system is slightly jarring--the items are too close together, creating a visually busy interface that’s hard to understand.
-	<br><br>Additionally the users provided the feedback that signifiers for the  ‘drag and drop’ interaction were not conveyed effectively in our prototype. In the next phase we will improve upon this through the refinement and rearranging of the visual interface so the signifiers for this affordance become more clear.
-	<br><br>Users appreciated the aisle or department navigation of the store, but they described feeling more connected to the interface and understanding of what it conveyed when the departments were represented through both text and images of an item associated with each aisle.
-	<br><br>They also appreciated the functionality of filtering items in an aisle and searching for items within an aisle, however they thought that our signifier of highlighting the results was not as effective as simply decreasing the number of items displayed to only show the results of a search or filter.
-				</p>
-				<h2 class="col-12 text-center tm-section-title"> Alternative designs and design decisions</h2>
-				<p class="col-12 text-center">
-	In order to facilitate an interaction that encouraged users to look around and come across something they might want, we explored several architectures. One alternative option was a decision tree that would walk users through simple choices like cookies, chips, or crackers, and drill down until they found a specific item they liked. The idea was to create a modular experience where people felt comfortable navigating up and down the tree to explore different things, without having to think too hard at any step. 
-	<br><br>However, we found that this failed to create the ‘browsing’ experience we were looking for. Users we interviewed expressed that it is a specific item that catches their eye, like Cheez-Its, rather than an abstract category like crackers, so choosing categories felt uncompelling. This reinforces the idea that using the concept of the visual aisle structure is an effective way for people to peruse. In particular, the ability to show many results at once with logical groupings allows items to catch the user’s eye, because they see options as they navigate from one thing on their shopping list to another. 
-	<br><br>We also considered adding a recommended items feature, similar to current online store interfaces. However some of the preliminary designs for this did not integrate well with the “shelving system” interface that we designed. Additionally during user interviews there seemed to be some resentment towards these features of current online store interfaces, although these features are effective at selling items, users expressed feeling tricked into buying recommended items. Thus we decided to leave these features out of our design but leave the possibility open for adding them at a later period if we could find a good integration strategy.
-				</p>
-				<h2 class="col-12 text-center tm-section-title"> Key insights </h2>
-				<p class="col-12 text-center">
-	Our surveyed users had diverse shopping habits and preferences, but there were a few shared important points among them. Our main insight was that our users greatly preferred the browsing layout to the search layout, but still wanted some amount of optimized searching in order to get through the shopping experience quickly. We also discovered that users had mixed feelings about a recommended items feature, so we decided to leave the feature out of our current prototype but leave enough room to add it later.
-	<br><br>There were a few affordance and signifier problems with our initial mockup, which we were able to pinpoint and come up with actionable changes to fix. First, the browsing aisle view pages have too many items on them that are too close together, creating a visually busy layout that’s hard for users to read and pay attention to. Second, we learned that users like mousing over items to learn more about them, and that this is an ideal location to put the price, rather than below the item in the shelf layout. 
-	<br><br>An additional feature we could add is audio--one of our users commented that they “could hear the muffled conversation around them.” We previously hadn’t considered adding any kind of audio or soundscape to our product, but if done effectively, it could enhance our intended user experience of feeling like you’re in a grocery store.
-				</p>
-				<h2 class="col-12 text-center tm-section-title"> Design Artifacts From This Phase </h2>
-				<a class="col-12 text-center" href="https://www.figma.com/file/5iNckKJDPMtJlvYGQsGruu/Rev-2?node-id=0%3A1">Interactive prototype mockup</a>
-	<br><a class="col-12 text-center" href="https://miro.com/app/board/o9J_kj4giU8=/">Pros and cons of online and in-person grocery shopping</a>
-	<br><a class="col-12 text-center" href="https://miro.com/app/board/o9J_kiLFMWQ=/">Initial prototype mockup</a>
+			<!-- Gourmet Chef Persona -->
+			<h2 class="col-12 text-left tm-section-title"> Gourmet Chef</h2>
+
+			<br>
+				<img class="col-12 text-center" src="img/persona_gourmet_chef.jpg" alt="An image depicting a popup window displayed over the isle. The window has the title Cart Total $36.84 and has a list of the items in your cart. The top right hand corner of the window has an x denoting the ability to close the window and the bottom right hand corner has two butons. One says procede to checkout and the other says create bundles">
+			<br>
+
+			<p class="col-12 text-left">
+				The Gourmet chef persona loves cooking and meal-planning, but isn’t thrilled about the logistics of shopping for a group.			
+			</p>
+
+			<p class="col-12 text-left">
+				Why our design might appeal to them:
+			</p>
+
+			<ul>
+				<li> Logical groupings in the aisles helps this persona compare prices and quality side by side, rather than having to scroll extensively between options.</li>
+				<li> The additional stocking capabilities of online shopping means this persona is less likely to have to go to multiple stores to find the right ingredient, saving them time. </li>
+				<li> Ever prepared, this persona prepares recipes and sometimes they might want to make a winning dish a second time. In a typical experience, they have to go through the repetitive process of looking up the recipe, finding the ingredients, and making a shopping list. With Bundles, they can order all the ingredients in one click.</li>
+			</ul>
+			<!-- End of Gourmet Chef Persona -->
+			<!-- Attention Elsewhere Persona -->
+			<h2 class="col-12 text-left tm-section-title"> Attention Elsewhere</h2>
+
+			<br>
+				<img class="col-12 text-center" src="img/persona_attention_elsewhere.jpg" alt="An image depicting a popup window displayed over the isle. The window has the title Cart Total $36.84 and has a list of the items in your cart. The top right hand corner of the window has an x denoting the ability to close the window and the bottom right hand corner has two butons. One says procede to checkout and the other says create bundles">
+			<br>
+
+			<p class="col-12 text-left">
+				The Attention elsewhere persona isn’t interested in grocery shopping at all, and would rather spend their time doing other things.
+			</p>
+
+			<p class="col-12 text-left">
+				Why our design might appeal to them:
+			</p>
+
+			<ul>
+				<li> This persona has never made a meal plan in their life, so the ability to browse aisles gives them a more forgiving experience (if they don’t know what exactly to search for) while also empowering them with the ability to filter by their most important factors like price.</li>
+				<li>While a persona who sees grocery shopping as an unavoidable chore is difficult to please, they might be more likely to gravitate to an online interface to save time--especially if they live far away from a grocery store as some of our users did.</li>
+			</ul>
+			<!-- End of Attention Elsewhere Persona -->
+			<!-- Community Buuilder Persona -->
+			<h2 class="col-12 text-left tm-section-title"> Community Builder</h2>
+
+			<br>
+				<img class="col-12 text-center" src="img/persona_community_builder.jpg" alt="An image depicting a popup window displayed over the isle. The window has the title Cart Total $36.84 and has a list of the items in your cart. The top right hand corner of the window has an x denoting the ability to close the window and the bottom right hand corner has two butons. One says procede to checkout and the other says create bundles">
+			<br>
+
+			<p class="col-12 text-left">
+				The Community builder persona puts a lot of time and energy into grocery shopping in order to ensure that their housemates are well-fed.
+			</p>
+
+			<p class="col-12 text-left">
+				Why our design might appeal to them:
+			</p>
+
+			<ul>
+				<li> As the primary purchaser in the house, this persona needs to make sure weekly staples are purchased so that everyone in the house is happy. Bundles can make sure nothing is forgotten--in addition to their original purpose of aiding meal planning.</li>
+				<li>Online ordering relieves the burden of physically taking a trip to the store, which is especially nice since this persona is likely to be doing other tasks to maintain a household.</li>
+			</ul>
+			<!-- End of Community Builder Persona -->
+
+			
+			<h2 class="col-12 text-left tm-chunk-title"> Cognitive Walkthroughs </h2>
+
+			<p class="col-12 text-left">
+				To assess a user interface, it’s useful to conduct a cognitive walkthrough to determine where users may encounter 
+				errors or difficulty. A general cognitive walkthrough is shown in the diagram below, but to better illustrate 
+				specific issues, we conduct cognitive walkthroughs for three specific goals, illustrated in tables. For the purpose 
+				of simplicity, we assume that the user has already navigated to the website’s homepage and is logged in.
+			</p>
+			<br>
+			<h3 class="col-12 text-left tm-section-title"> Goal 1: Adding a snack to the cart </h3>
+			<br>
+			<p class="col-12 text-left">
+				For our first user goal, we assume that the user is buying groceries and wants to add a snack to their order. 
+				They know the category of snack they want, but not which specific snack they want.
+			</p>
+			<br>
+			<table style="width:100%">
+			  <tr>
+			    <th>Task</th>
+			    <th>Will users understand how to start it?</th>
+			    <th>Are the controls conspicuous?</th>
+			    <th>Will users know the control is the correct one?</th>
+			    <th>Was there feedback to indicate if the task was completed?</th>
+			  </tr>
+			  <tr>
+			    <th>Click the “Snacks” aisle button</th>
+			    <th>Yes--the aisle buttons are round and distinctly colored, indicating they can be clicked</th>
+			    <th>Yes--the aisle buttons take up a large amount of the page</th>
+			    <th>Yes--the aisle button is labeled “Snacks” and has an image associated with snacks</th>
+			    <th>Yes--the page changes to the snacks aisle, and the user can read the title of the aisle to determine if they’ve reached the correct aisle</th>
+			  </tr>
+			  <tr>
+			    <th>Click the category name that sounds good</th>
+			    <th><b>Maybe--the category names have a gray underline indicating the current category being viewed, but no indication that they are clickable buttons</b></th>
+			    <th>Yes--the category names are near the top of the page near the aisle name</th>
+			    <th>Yes--the different category names correspond to the category the user wants to navigate to</th>
+			    <th>Yes--the page scrolls to the category the user clicked<br><b>No--nothing happens if the user is already in the category they clicked</b></th>
+			  </tr>
+			  <tr>
+			    <th>Click the left and right arrows to look at more items</th>
+			    <th>Yes--items on the right side of the screen are partially cut off, and the arrow and scrollbar at the bottom of the screen indicate there’s more to see</th>
+			    <th>Yes--the arrows are in a darker color than surrounding UI elements</th>
+			    <th>Yes--the arrow is a common UI element indicating navigation</th>
+			    <th>Yes--the aisle scrolls to left or right to show more items<br><b>No--if the user is at the far end of an aisle and tries to go further, nothing happens</b></th>
+			  </tr>
+			  <tr>
+			    <th>Click the item the user wants</th>
+			    <th>Yes--the action of clicking the item is common to all online grocery shopping applications</th>
+			    <th><b>Maybe--while it is intuitive to click the item, it could be made more obvious by highlighting it on hover</b></th>
+			    <th>Yes--clicking the item is standard practice</th>
+			    <th>Yes--a modal showing the item’s picture and name pops up</th>
+			  </tr>
+			  <tr>
+			    <th>Enter item quantity</th>
+			    <th>Yes--entering a quantity is a standard task across online shopping applications</th>
+			    <th>Yes--the text asking for quantity is conspicuous, as are the text box and plus and minus buttons</th>
+			    <th>Yes--the plus and minus indicate more or less, and clicking inside the box to type in a number is standard across applications</th>
+			    <th>Yes--the number updates to the number the user entered, or increases or decreases</th>
+			  </tr>
+			  <tr>
+			    <th>Click “Add to cart”</th>
+			    <th>Yes--the “Add to Cart” button is clearly labeled </th>
+			    <th>Yes--the button is on the right hand side, indicating that it brings the user closer to checkout, and is colored differently</th>
+			    <th>Yes--the button is labeled clearly</th>
+			    <th><b>Maybe--there is no explicit message, but the modal closes</b></th>
+			  </tr>
+			</table>
+			<br> <br>
+			<h3 class="col-12 text-left tm-section-title"> Goal 2: Creating a new Bundle for lemonade </h3>
+			<br>
+			<p class="col-12 text-left">
+				For this goal, we assume the user is buying groceries to make lemonade, and at check-out wants to create a Bundle for lemonade.
+			</p>
+			<br>
+			<table style="width:100%">
+			  <tr>
+			    <th>Task</th>
+			    <th>Will users understand how to start it?</th>
+			    <th>Are the controls conspicuous?</th>
+			    <th>Will users know the control is the correct one?</th>
+			    <th>Was there feedback to indicate if the task was completed?</th>
+			  </tr>
+			  <tr>
+			    <th>Click an aisle icon or name</th>
+			    <th>Yes--the aisle buttons are round and distinctly colored, indicating they can be clicked</th>
+			    <th>Yes--the aisle buttons take up a large amount of the page</th>
+			    <th><b>No--the cart isn’t visible from the homescreen, so the user must first enter an aisle.</b></th>
+			    <th>Yes--the page changes to the selected aisle page</th>
+			  </tr>
+			  <tr>
+			    <th>Click the cart icon</th>
+			    <th>Yes--clicking the cart icon is standard across online shopping applications</th>
+			    <th>Yes--the cart is large, in the main body of the page, and aligned to the right hand side of the page</th>
+			    <th>Yes--clicking the cart is standard practice</th>
+			    <th>Yes--a modal showing the cart is opened</th>
+			  </tr>
+			  <tr>
+			    <th>Click “Create Bundles”</th>
+			    <th>Yes--the button’s name indicates its function</th>
+			    <th>Yes--the button is located directly to the left of the Checkout button, implying it is an action to be taken before checking out, which is what the user is trying to do</th>
+			    <th>Yes--the button is clearly labeled</th>
+			    <th>Yes--the user is navigated to a Bundles modal</b></th>
+			  </tr>
+			  <tr>
+			    <th>Drag items from cart into Bundle</th>
+			    <th>Yes--the blank Bundle shown has instructions for doing this</th>
+			    <th>Yes--the blank Bundle shown has instructions for doing this</th>
+			    <th>Yes--the blank Bundle shown has instructions for doing this, and the items from the cart are shown as concise blocks, making it easy to imagine moving one</th>
+			    <th>Yes--the moved item is displayed in the in-progress Bundle</th>
+			  </tr>
+			  <tr>
+			    <th>Enter Bundle name</th>
+			    <th>Yes--clicking grayed out text in a name field is standard practice for naming an item</th>
+			    <th>Yes--the text is grayed out, and being able to click in a name field is standard practice</th>
+			    <th>Yes--clicking inside a name field to rename it is standard practice</th>
+			    <th>Yes--when the user clicks outside the name field, the name of the Bundle is updated to what they typed in</th>
+			  </tr>
+			  <tr>
+			    <th>Click “Save” button</th>
+			    <th>Yes--the button’s name indicates its function, it only appears after the user has added items to the new Bundle, and the button is inside the new Bundle</th>
+			    <th>Yes--the button is colored differently and is in the same area of the screen the user is looking</th>
+			    <th>Yes--the button is clearly labeled</th>
+			    <th>Yes--a message confirms that the user has saved the Bundle</th>
+			  </tr>
+			</table>
+			<br> <br>
+			<h3 class="col-12 text-left tm-section-title"> Goal 3: Using an existing Bundle to add weekly staples to the cart </h3>
+			<br>
+			<p class="col-12 text-left">
+				For this goal, the user wants to add items to their cart from an existing Bundle called 
+				“Weekly Staples” that contains items the user buys every week.
+			</p>
+			<br>
+			<table style="width:100%">
+			  <tr>
+			    <th>Task</th>
+			    <th>Will users understand how to start it?</th>
+			    <th>Are the controls conspicuous?</th>
+			    <th>Will users know the control is the correct one?</th>
+			    <th>Was there feedback to indicate if the task was completed?</th>
+			  </tr>
+			  <tr>
+			    <td>Click “My Bundles”</th>
+			    <td>Yes--it is standard practice for text in a header bar to be links for navigation</th>
+			    <td>Yes--the text is right-aligned, and in the header bar with other buttons for sitewide navigation</th>
+			    <td>Yes--it is standard practice to click text links in header bars</th>
+			    <td>Yes--the web browser navigates to a new page</th>
+			  </tr>
+			  <tr>
+			    <td>Click “+ Add All to Cart”</th>
+			    <td>Yes--the task they want to achieve is communicated clearly, and is inside a button icon</th>
+			    <td>Yes--the button is clearly colored and round</th>
+			    <td>Yes--the button is clearly labeled</th>
+			    <td>Yes--the user’s cart on the right side updates to show all the items in the bundle<br><b>Note--there should be a brief highlight animation or something else to draw the user’s attention to their cart</b></th>
+			  </tr>
+			</table>
+			
+
+			<h2 class="col-12 text-left tm-chunk-title"> Moving Forward </h2>
+			<p class="col-12 text-left">
+				We are pleased with what we’ve been able to accomplish in this phase and believe that our product’s core concept 
+				could find real-world traction among a subset of grocery shoppers. That said, there’s still more we would’ve liked 
+				to do if we’d had more time--we would spend our next sprint increasing the visual fidelity of the home page and main 
+				aisle view before doing another round of user testing. We would also be interested in isolating features that we believe 
+				are most compelling (i.e. bundles) for a round of A/B testing to see whether users truly prefer our current aisle-centric 
+				design or whether they would gravitate toward a traditional Amazon-style view, but with bundles added. Finally, there’s 
+				still plenty of additional room to explore with bundles and if we had more time it would be interesting to design a “social” 
+				component (sharing, trending, liking, saving, recommended) to them and see if it adds user value.			
+			</p>
+			<p class="col-12 text-left">
+				A few key ideas communicated in our instructor feedback that we didn’t address include:
+			</p>
+			<p class="col-12 text-left">
+				Suggesting Bundles. One possible area for improvement is to have the site suggest Bundles at checkout based on what the user 
+				has in their cart, or scrape recipes online for ingredient lists. However, for the scope of this project we chose to look at 
+				manual entry, both for simplicity and to avoid some users’ concerns about privacy related to machine learning algorithms.			
+			</p>
+			<p class="col-12 text-left">
+				UI issues related to higher-fidelity mock-ups. When introducing real images of food and real product names, we introduce new 
+				issues users will face when navigating a user interface, which we didn’t address for the scope of this project. These include having 
+				legible and consistent images of products arranged within a grid that still feels natural to navigate from side to side, and having confusing, 
+				long, or repetitive item names.			
+			</p>
 	
 			</div><!-- /.blurb -->
 		</main>
