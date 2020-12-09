@@ -6,3 +6,4 @@ This project was developed by Arwin Sadler, Ashlee Swanson, Nathan Shuster, and 
 This project was developed as part of the 2020 Olin college fall semester User experience design course
 
 The link to the website is here:
+https://tnovak-olin.github.io/GroceryStoreUXDesignProject/
