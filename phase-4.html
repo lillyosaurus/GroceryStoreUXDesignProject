@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Online Shopping Redesign</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+Made using the Simple House HTML template:
+https://templatemo.com/tm-539-simple-house
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/uxd_banner.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">Online Shopping Interface Redesign</h1>
+								<h6 class="tm-site-description">2020 Fall semester user Experience Design project</h6>	
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="phase-4.html" class="tm-nav-link active">Phase 4</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>				
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+
+			<div class="blurb">
+				<h1 class="col-12 text-center tm-section-title"> Phase 4: Design Refinement </h1>
+
+				<p class="col-12 text-center">
+	Intro paragraph: what we made, what our goals were for this phase, key insights and changes.
+					<br>
+					<iframe class="col-12 text-center style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5iNckKJDPMtJlvYGQsGruu%2FRev-2%3Fnode-id%3D226%253A0%26scaling%3Dscale-down" allowfullscreen></iframe>
+				</p>
+				<h2 class="col-12 text-center tm-section-title"> Design feedback and Revisions </h2>
+				<p class="col-12 text-center">
+					In the most recent phase of development we focused on revising and polishing the current prototype. The design revisions consisted of two stages.
+					<br>
+					First, a rough prototype of the interface was taken back to test users who helped refine the ideas present in the prototype. These feedback sessions primarily focused on the design of user-requested features and identifying user experience pain points.
+					<br>
+					Second, after implementing feedback from the design revision sessions, we brought a team of designers (consisting of other students taking the course) on board to perform a heuristic evaluation of the prototype. This process was designed to identify areas of improvement by evaluating our interface using <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Jakob Nielson's ten general usability heuristics.</a>  We also gathered feedback from our instructor to implement specific UI changes and to provide insight from his experience working in design at a company.                     
+					<br>
+					The final development phase focused on refining the design to implement the design feedback from the heuristic evaluations as well as polishing the design as a whole. The first major design change which needed to be made was that users expressed frustration and the feeling of being overwhelmed with the initial prototype. They said that they "could understand the fundamental concept of trying to mimic store shelves, but there [were] just so many things happening that [they couldn't] focus on the one task [they wanted] to perform." In response, we made a deliberate attempt to reduce the number of items shown as well as provide visual structure to the page to ground the design.				
+				</p>
+				<img class="col-12 text-center" src="img/visualClutterRefinement.jpg" alt="An image depicting the refinement of the prototype. On the left is an image showing many varied items displayed as images layed out in a grid on a white background. The right hand image displays items arainged in three rows and set into a shape which suggests the items are placed on a virtual shelf.">
+				<p class="col-12 text-center">
+					Based on user feedback, we revised how our filtering and in-aisle search features displayed results. In the first iteration, the items that matched the search or filtering criteria were highlighted to make them distinct to the user. This led to an overly cluttered interface, and users became frustrated with being unable to rapidly see all items fitting their selection criteria. We solved this problem by transitioning to a system where the screen will display only items that meet the filtering or search criteria.
+				</p>
+				<img class="col-12 text-center" src="img/filterComparason.jpg" alt="An image depicting the redesign of the filtering system. On the left is an image showing many items displayed as images items are highlighted in yellow if they fulfill the selected filter. The right hand image displays fewer items populating the shelf with only items that fulfill the selected filter.">
+				<p class="col-12 text-center">
+					A fairly lightweight and primarily visual feature that we implemented came from some users’ expressing a desire for a way to navigate within an aisle while maintaining the ability to see all the items pass as they navigate--similar to the brick and mortar experience of navigation flags within an aisle. [1]
+				</p>
+				<img class="col-12 text-center" src="img/storeIsleFlags.jpg" alt="An image depicting the forzen foods isle of a rocery store. Signs hang over the refridgeration units periodically. The signs denote diferent sections of the refridgeration units such as entres and frozen pizzas.">
+				<p class="col-12 text-center"> 
+					We structured our solution under a header navigation architecture where users can navigate within an aisle by selecting a category, and when the user selects a category, the items scroll past as though the user is walking through the virtual aisle.
+				</p>
+				<img class="col-12 text-center" src="img/navigationHeaders.jpg" alt="An image depicting the dairy isle with a category toolbar above the products. The left image shows the milk category selected. the right image shows the cheeze category selected and a development tag describing that items would shift along the shelves to display the cheese while giving a previw of the other catagories as you pass.">
+				<P class="col-12 text-center">
+					Users also expressed frustration with traditional e-commerce systems' lack of a method to save commonly purchased items (to simplify repeat purchases). Some of our users expressed how they would appreciate the ability to purchase all of the ingredients for a recipe without having to find them all individually. To solve this, we introduced the system of Bundles: saved, user-defined item groupings that can be added to the cart all at once. Users can create and modify their Bundles at any point in the shopping experience, but we expect that the majority of Bundle creation will occur at checkout--the final configuration of items are already together in the cart and the user, having just done the work to track down these items, is more willing to create a Bundle to save them time on their next visit. Bundles can be used in a wide range of capacities--everything from ignored to a central hub of the shopping experience--for a wide variety of use cases, and we expect that the majority of our users can find value somewhere on this spectrum.
+					<br>
+					The last major change that was made in response to user feedback was a shift to emphasize actions occurring as pop-up modals throughout the experience. One way we used this was to combat the problem of users having difficulty tracking what was in their cart in traditional e-commerce experiences. One user remarked, "[when online shopping] I find I don’t really know how much I have in my cart. I just put things in my cart as I go, but then I'm always surprised by how much I ordered and how much I spend when it comes to checkout." We aimed to make checking the cart status more dynamic and integrated with the overall experience by showing the cart contents in a pop-up modal which the user can easily open and close by clicking on the cart icon throughout their shopping experience.
+				</p>
+				<img class="col-12 text-center" src="img/cartModal.jpg" alt="An image depicting a popup window displayed over the isle. The window has the title Cart Total $36.84 and has a list of the items in your cart. The top right hand corner of the window has an x denoting the ability to close the window and the bottom right hand corner has two butons. One says procede to checkout and the other says create bundles">
+				<h2 class="col-12 text-center tm-section-title"> Cognitive walkthrough </h2>
+				<p class="col-12 text-center">
+	<img src="img/UXD_Cognitive_Walkthrough.jpg" alt="Cognitive Walkthrough" />
+				</p>
+				<h2 class="col-12 text-center tm-section-title"> Sitemap or interaction flow </h2>
+				<p class="col-12 text-center">
+	Filler text
+				</p>
+				<h2 class="col-12 text-center tm-section-title"> Wireframes/other screen representations</h2>
+				<p class="col-12 text-center">
+	Filler text
+				</p>
+				<h2 class="col-12 text-center tm-section-title"> Key insights </h2>
+				<p class="col-12 text-center">
+	Outro paragraph: conclusion/wrap-up.
+				</p>
+	
+			</div><!-- /.blurb -->
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 Simple House 
+            
+            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
